@@ -30,6 +30,7 @@ T-Mobile - Security Payload - Pipeline Build with Serverless Orchestration to [p
 Cigna - Moderation - Making Legacy Platform to FHIR Client Transformation- AWS Lambda -Node, Java, EKS  
 Delta Airlines - Azure Migration to AWS - Platform  
 
+[Education](education-background.md)
 
 Who am I?
 
@@ -58,7 +59,7 @@ Cloud Patterns
 - Active - Passive US-EAST - US- Webst Regions
 
 
-
+![Implemented Serverles Design Pattens](API-Lambda-AppSync-DynamoDB.png)
 
 
 
