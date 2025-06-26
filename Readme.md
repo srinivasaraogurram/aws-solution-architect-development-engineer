@@ -79,4 +79,4 @@ Cloud Patterns
 ![Implemented Serverles Design Pattens](API-Lambda-AppSync-DynamoDB.png)
 
 
-
+Updating in progress..
