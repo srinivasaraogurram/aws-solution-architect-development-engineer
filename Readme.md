@@ -28,7 +28,8 @@ Career * Started as a Web developer in 1999:
 ## Onsite Experience  
 - Cognizant          - Hyderabad 2014 - 2019 5 Years  
                                                       - Java Application Architect   - Technical Manager  - Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
-                                                      - AWS Solution Architect       - Technical Manager  - AWS IAM, AWS, S3, AWS EC2, Containerization, Docker, Kubernetes  
+                                                      - AWS Solution Architect       - Technical Manager  - AWS IAM, AWS, S3, AWS EC2, Containerization, Docker, Kubernetes, Serverless
+- [AA Software & Networking](HTTP://aasoftnet.com)
                                                       - AWS Solution Engineer Cloud Engineering Practice  - AWS Serverless - API Gateway, SNS, SQS, SES, Event Bridge, Kafka, Kinesis,  Lambda, Stepfunction, DynamoDB, S3, Athena, Glue  
                                                                                                           - CI/CD - Jenkins, Gitlab CI/CD, AWS Code Commit, Code Build, Code Pipeline  
                                                                                                           - Iac-Infra as Code - CloudFormation, AWS CDK, [Serverless Framework](https://www.serverless.com/framework), [SAM](https://aws.amazon.com/serverless/sam/), Terraform
