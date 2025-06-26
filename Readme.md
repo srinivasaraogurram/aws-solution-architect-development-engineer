@@ -6,11 +6,11 @@ AWS Cloud Solution Engineer- 10 Years
 
 - IT Certifications
   - AWS Certified Solution Architect
-  - AWS Certified Practionar
-  - AWS Parter Trained Solution Architect Cognization
-  - Cognization Cerified Solution Architect
+  - AWS Certified Practitioner
+  - AWS Partner Trained Solution Architect Cognization
+  - Cognizant Certified Solution Architect
   - Java Certified Associate 1.5
-  - Java Cerfied Application Architect
+  - Java Certified Application Architect
   - Certified SME in Cognization Code Quality Platform
 
 
@@ -55,13 +55,13 @@ Cloud Hands-on Development Engineer:
 - Cloud Migration from On-Prem to Cloud using
   - 6R or 7R Migration Priciples
     - Rehost, Relocate, Refactor, Repurchase, Replatform, Retire, Retain
-  -  Well Architected Principles
+  -  Well-Architected Principles
       - Operational Excellence
       - Security
       - Reliability
       - Performance Efficiency
       - Cost Optimization
-      - Sustainablity
+      - Sustainability
 
 - Databases:
   - RDS
