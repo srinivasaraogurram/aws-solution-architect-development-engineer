@@ -1,8 +1,17 @@
-About Me
-Srinivasa Rao  Gurram - Sri
-M.Tech CS
-Location: Dallas TX
-AWS Cloud Engineer- 10 Years
+About Me  
+Srinivasa Rao  Gurram - Sri  
+M.Tech CS  
+Location: Dallas TX  
+AWS Cloud Solution Engineer- 10 Years
+
+- IT Certifications
+  - AWS Certified Solution Architect
+  - AWS Certified Practionar
+  - AWS Parter Trained Solution Architect Cognization
+  - Cognization Cerified Solution Architect
+  - Java Certified Associate 1.5
+  - Java Cerfied Application Architect
+  - Certified SME in Cognization Code Quality Platform
 
 
 Career * Started as a Web developer in 1999:  
