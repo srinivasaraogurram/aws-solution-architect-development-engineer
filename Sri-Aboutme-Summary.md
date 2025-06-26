@@ -41,6 +41,12 @@ I am hands on Cloud Engineer who can develop application using, Java, Node, Type
     - Cloud Formation, AWS CDK, Serverless, Terraform
   - CICD
     - Jenkins, Gitlab CI/CD
+  - Security
+    - Open ID, Oauth, JWT Token
+  - Code Quality, Code Coverage
+    - Sonar, Nyc for NodeJS
+  - Unit Testing,
+    JUnit for Java, Chai, Sinon, Mocha, Jest for NodeJS
 
 ## As Cloud Solution Engineer:
 
@@ -50,6 +56,9 @@ Private Cloud: Verizon Client - HomeGrown Container Orchestration.
 
 
 # Cloud Solution Architect
+* Cloud Migration 
+  - 6R, 7R Principles
+  - Well Architect Framework
 * MicroService Decomposition Patterns
  - By Domain Decomposition
  - By Application Decomposition
@@ -58,16 +67,17 @@ Private Cloud: Verizon Client - HomeGrown Container Orchestration.
    - CQRS - Read Data from Seperate Instances, Write using seperate instances
   
 
-
-Work Authorization:
+# Work Authorization:  
 H1-B 
    [2014-2019 - Cognizant USA](I-94/01-i94-2014-02.pdf)
    [2019-2025 - AASoftware Networking Inc.](I-94/01-i94-2014-02.pdf)
 
-Current Employer:
-AA Software Networking Inc.
-1544 Sawdust Rd #270
-Spring, TX 77380, USA
+# Current Employer:  
+AA Software Networking Inc.  
+1544 Sawdust Rd #270  
+Spring, TX 77380, USA  
 
-Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
+# Current Location
 Location: Aubrey TX, Dallas, TX: 76227
+# Contact Info
+Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
