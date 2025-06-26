@@ -1,6 +1,6 @@
 About Me  
 Srinivasa Rao  Gurram - Sri  
-M.Tech CS  
+M.Tech Computer Science
 Location: Dallas TX  
 AWS Cloud Solution Engineer- 10 Years
 
