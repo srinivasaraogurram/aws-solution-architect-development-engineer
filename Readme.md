@@ -26,10 +26,10 @@ Career * Started as a Web developer in 1999:
 - Cognizant          - Hyderabad 2006-2011 - 5 Years - Lead Sr.Java developer  - Technology Specialist - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 - Cognizant          - Hyderabad 2011-2014 - 3 Years - Application Architect   - Technical Manager- Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 ## Onsite Experience  
-- Cognizant          - Hyderabad 2014 - 2019 5 Years  
+- Cognizant          - USA 2014 - 2019 5 Years  
                                                       - Java Application Architect   - Technical Manager  - Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
                                                       - AWS Solution Architect       - Technical Manager  - AWS IAM, AWS, S3, AWS EC2, Containerization, Docker, Kubernetes, Serverless
-- [AA Software & Networking](HTTP://aasoftnet.com)
+- [AA Software & Networking](HTTP://aasoftnet.com) - 2019 - 2025- Till Date/(2025 )
                                                       - AWS Solution Engineer Cloud Engineering Practice  - AWS Serverless - API Gateway, SNS, SQS, SES, Event Bridge, Kafka, Kinesis,  Lambda, Stepfunction, DynamoDB, S3, Athena, Glue  
                                                                                                           - CI/CD - Jenkins, Gitlab CI/CD, AWS Code Commit, Code Build, Code Pipeline  
                                                                                                           - Iac-Infra as Code - CloudFormation, AWS CDK, [Serverless Framework](https://www.serverless.com/framework), [SAM](https://aws.amazon.com/serverless/sam/), Terraform
@@ -43,18 +43,25 @@ Delta Airlines - Azure Migration to AWS - Platform
 [Education](education-background.md)
 
 Who am I?
-
+## Cloud Engineer
 I am a Cloud Engineer who is working as an AWS Solution Engineer, a Development - Hands-on Engineer who works in all the Cloud Platforms using the  following Programming Languages
 Cloud Hands-on Development Engineer:
 - Java: Java 8, 11, 17, 21 - SDKMan, Spring Boot, Docker, EKS, EC2, Function as a Service
 - NodeJS: ExpressJS, FastAPI, Node Middleware, AWS Lambda with NodeJS, 
 - Python: AWS Lambda, Boto3, AWS Glue
 
-Cloud Solution Architect:
+## Cloud Solution Architect:
 
-Cloud Migration from On-Prem to Cloud using
- 6R or 7R Migration Priciples
- Well-Architected Principles
+- Cloud Migration from On-Prem to Cloud using
+  - 6R or 7R Migration Priciples
+    - Rehost, Relocate, Refactor, Repurchase, Replatform, Retire, Retain
+  -  Well Architected Principles
+      - Operational Excellence
+      - Security
+      - Reliability
+      - Performance Efficiency
+      - Cost Optimization
+      - Sustainablity
 
 - Databases:
   - RDS
