@@ -1,4 +1,7 @@
-AWS Development Engineer, AWS Solution Architect
+# Sri - AWS Development Engineer, AWS Solution Architect
+####  Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
+
+## Experience
 * 10 Years of US Onsite Experience - working USA Since 2014
 * 25 Years of IT Experience
 * 10 Years Experience on AWS, GCP, Azure
@@ -13,7 +16,7 @@ AWS Development Engineer, AWS Solution Architect
 
 Who am I:
 
-# As Cloud Development Engineer:
+## As Cloud Development Engineer:
 
 I am hands on Cloud Engineer who can develop application using, Java, Node, TypeScript, Python.  
 - Java  
@@ -55,7 +58,7 @@ Secondary Cloud: Azure -3 Years T-Mobile, National Life; GCP - 3 Years - Moneygr
 Private Cloud: Verizon Client - HomeGrown Container Orchestration.
 
 
-# Cloud Solution Architect
+## Cloud Solution Architect
 * Cloud Migration 
   - 6R, 7R Principles
   - Well Architect Framework
