@@ -70,7 +70,7 @@ Private Cloud: Verizon Client - HomeGrown Container Orchestration.
 # Work Authorization:  
 - H1-B  
   - [2014-2019 - Cognizant USA](I-94/01-i94-2014-02.pdf)  
-  - [2019-2025 - AASoftware Networking Inc.](I-94/01-i94-2014-02.pdf)  
+  - [2019-2025 - AASoftware Networking Inc.](I-94/02-i94-2017-2025.pdf)  
 
 # Current Employer:  
 AA Software Networking Inc.  
