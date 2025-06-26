@@ -1,5 +1,5 @@
 # Sri - AWS Development Engineer, AWS Solution Architect
-####  *Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com *
+####  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_
 
 ## Experience
 * 10 Years of US Onsite Experience - working USA Since 2014
