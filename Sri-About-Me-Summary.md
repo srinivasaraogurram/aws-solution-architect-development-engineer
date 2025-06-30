@@ -1,27 +1,27 @@
 # Sri - AWS Development Engineer, AWS Solution Architect
-####  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_
+###  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_
 
 ## Experience
-* 10 Years of US Onsite Experience - working USA Since 2014
+* 10 Years of US Onsite Experience - working USA since 2014
 * 25 Years of IT Experience
 * 10 Years Experience on AWS, GCP, Azure
-* Cloud Engineer Practise who can not only Develope applications, but also provide Design, Detailed Design, Coding, Testing, Code Pipelines, and Deploy to QA, Prod
+* Cloud Engineer Practise who can not only develop applications, but also provide Design, Detailed Design, Coding, Testing, Code Pipelines, and Deploy to QA, Prod
 * 14 Years with Cognizant as Technical Lead, Solution Architect
 * Programming Languages
-  Java: Java8,11, 17, 21 Spring Boot MicroServices using Rest, Soap API
+  Java: Java8, 11, 17, 21 Spring Boot MicroServices using Rest, SOAP API
   NodeJS: Node 12, 18, 22,  TypeScript, Express -Rest API, NodeJS Middleware functions, 
   Python: 3.x Fast API 
-  AWS : API Gateway 
+  AWS: API Gateway 
 * AWS Certified Solution Architect
 
-Who am I:
+## Who am I?
 
-## As Cloud Development Engineer:
+### As Cloud Development Engineer:
 
-I am hands on Cloud Engineer who can develop application using, Java, Node, TypeScript, Python.  
+I am a hands-on Cloud Engineer who can develop applications using Java, Node, TypeScript, and Python.  
 - Java  
-  - Java - Started my Career as Java Developer worked with Java 1.1, 1.5, 1.8, Java 17, Java 21  
-  - Java Frameworks: Structs1,1 Spring MVC, Spring Boot, JSF Seam Framework  
+  - Java - Started my Career as a Java Developer, worked with Java 1.1, 1.5, 1.8, Java 17, Java 21  
+  - Java Frameworks: Struts 1.1 Spring MVC, Spring Boot, JSF, Seam Framework  
   - Hibernate, JPA, ORM, Ibatis  
 - NodeJS  
   - NodeJS, TypeScript, ExpressJS, Fastify.  
@@ -40,22 +40,22 @@ I am hands on Cloud Engineer who can develop application using, Java, Node, Type
     - AWS Dynamo DB  
   - Document
     - MongoDB, MongoDB Atlas on AWS, [Document DB](https://aws.amazon.com/documentdb/)
-  - Code as Infra (iac)
+  - Code as Infra (IAC)
     - Cloud Formation, AWS CDK, Serverless, Terraform
   - CICD
     - Jenkins, Gitlab CI/CD
   - Security
-    - Open ID, Oauth, JWT Token
+    - Open ID, OAuth, JWT Token
   - Code Quality, Code Coverage
-    - Sonar, Nyc for NodeJS
+    - Sonar, NYC for NodeJS
   - Unit Testing,
     JUnit for Java, Chai, Sinon, Mocha, Jest for NodeJS
 
-## As Cloud Solution Engineer:
+### As Cloud Solution Engineer:
 
-Primary Cloud: AWS - 9 Years - Siriux XM, CollegeBoard, T-Mobile, TecoBell, Cigna, Delta Airlines
+Primary Cloud: AWS - 9 Years - Sirius XM, CollegeBoard, T-Mobile, TecoBell, Cigna, Delta Airlines
 Secondary Cloud: Azure -3 Years T-Mobile, National Life; GCP - 3 Years - Moneygram
-Private Cloud: Verizon Client - HomeGrown Container Orchestration.
+Private Cloud: Verizon Client - Homegrown Container Orchestration.
 
 
 ## Cloud Solution Architect
@@ -67,13 +67,12 @@ Private Cloud: Verizon Client - HomeGrown Container Orchestration.
  - By Application Decomposition
  - Design Patterns
    - Sega Pattern - Event Driven Architecture
-   - CQRS - Read Data from Seperate Instances, Write using seperate instances
-  
-
+   - CQRS - Read Data from Separate Instances, Write using separate instances
 # Work Authorization:  
 - H1-B  
-  - [2014-2019 - Cognizant USA](I-94/01-i94-2014-02.pdf)  
-  - [2019-2025 - AASoftware Networking Inc.](I-94/02-i94-2017-2025.pdf)  
+  - [2014-2019 - Cognizant USA](I-94/01-i94-2014-02.pdf)
+  - [2019-2025 - AASoftware Networking Inc.](I-94/02-i94-2017-2025.pdf)
+    Note: Click on the Individual Link to check I-94.
 
 # Current Employer:  
 AA Software Networking Inc.  
@@ -81,6 +80,6 @@ AA Software Networking Inc.
 Spring, TX 77380, USA  
 
 # Current Location
-Location: Aubrey TX, Dallas, TX: 76227
+Location: Aubrey, TX, Dallas, TX: 76227
 # Contact Info
 Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
