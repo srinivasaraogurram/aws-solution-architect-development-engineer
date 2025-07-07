@@ -1,5 +1,5 @@
 # Sri - AWS Development Engineer, AWS Solution Architect
-###  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_
+###  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_| WorkAuthorization: H1B| http://www.aasoftnet.com | Aubrey TX, Dallas, TX
 
 ## Experience
 * 10 Years of US Onsite Experience - working USA since 2014
