@@ -13,6 +13,10 @@
   Python: 3.x Fast API 
   AWS: API Gateway 
 * AWS Certified Solution Architect
+* Specialized in Serverless Platform Function as Service - AWS Lambda, Azure functions, Google Cloud Functions uisng Java, NodeJS, Python.
+* AWS Lambda - with DyamoDB
+* Azure functions with Costmos DB
+* GCP Functions with FireStore, FireBase
 
 ## Who am I?
 
