@@ -14,6 +14,7 @@ WorkAuthorization: H1B| http://www.aasoftnet.com | Aubrey TX, Dallas, TX
   Python: 3.x Fast API 
   AWS: API Gateway 
 * AWS Certified Solution Architect
+* Expert in Serverless Architect, Cloud Migration, OnPrem to Cloud, Active-Active, Active-Passive Models
 * Specialized in Serverless Platform Function as Service - AWS Lambda, Azure functions, Google Cloud Functions uisng Java, NodeJS, Python.
 * AWS Lambda - with DyamoDB
 * Azure functions with Costmos DB
