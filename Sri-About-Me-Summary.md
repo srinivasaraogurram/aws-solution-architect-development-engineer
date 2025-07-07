@@ -83,3 +83,8 @@ Spring, TX 77380, USA
 Location: Aubrey, TX, Dallas, TX: 76227
 # Contact Info
 Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
+<<<<<<< Updated upstream:Sri-About-Me-Summary.md
+=======
+
+[More in Detail Version please click here](Readme.md)
+>>>>>>> Stashed changes:Sri-Aboutme-Summary.md
