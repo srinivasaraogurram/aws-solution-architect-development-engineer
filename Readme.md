@@ -1,5 +1,5 @@
 ###About Me  
-# Sri - AWS Solution Architec, AWS Cloud Developer Engineer
+# Sri - AWS Solution Architect, AWS Cloud Developer Engineer
 
 Srinivasa Rao  Gurram - Sri  
 M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)  
