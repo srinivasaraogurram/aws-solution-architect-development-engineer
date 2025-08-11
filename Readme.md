@@ -1,8 +1,13 @@
-About Me  
+###About Me  
+# Sri - AWS Solution Architec, AWS Cloud Developer Engineer
+
 Srinivasa Rao  Gurram - Sri  
-M.Tech Computer Science
-Location: Dallas TX  
-AWS Cloud Solution Engineer- 10 Years
+M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)  
+Location: Aubrey, TX 76227, Dallas, TX, USA  
+Contact No: +1 925-922-4115  
+Email Id: SrinivasaRao.Gurram@gmail.com  
+
+AWS Cloud Solution Engineer- 10 Years  
 
 - IT Certifications
   - AWS Certified Solution Architect
