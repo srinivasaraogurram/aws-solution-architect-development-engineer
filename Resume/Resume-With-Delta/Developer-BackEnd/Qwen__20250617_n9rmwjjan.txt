@@ -1,0 +1,101 @@
+Srinivasa R. Gurram
+MTech | AWS Certified Solutions Architect
+Cloud Development Engineer & Technical Lead | 25+ Years IT Experience
+📧 srinivasarao.gurram@gmail.com | 📱 +1 925-922-4115
+📍 Dallas, TX | Work Authorization: H1B | Employment Type: C2C or C2H
+
+PROFESSIONAL SUMMARY
+Highly accomplished AWS Certified Cloud Solutions Architect with 10+ years of architectural design and implementation experience alongside 25 years of comprehensive IT expertise. Proven technical leadership capabilities with deep full-stack development skills spanning Java, Node.js, Python, JavaScript/TypeScript frameworks. Specialized in cloud migration strategies, serverless architecture implementation, and microservices design patterns on AWS platform. Demonstrated success delivering enterprise-grade solutions for Fortune 500 companies across healthcare, telecommunications, payments processing, and aviation sectors.
+
+TECHNICAL EXPERTISE
+Cloud Technologies: AWS (Lambda, API Gateway, DynamoDB, S3, ECS/EKS, Step Functions, CloudFormation, CDK, SAM), Azure, GCP
+DevOps Tools: GitLab CI/CD, Jenkins, Docker, Kubernetes, Helm Charts, ArgoCD
+Languages & Frameworks: Java 11/18, Spring Boot, Node.js, Express.js, Fastify, Python (Boto3), TypeScript, JavaScript (ES6+), React Hooks
+Databases: DynamoDB, MongoDB, PostgreSQL (Aurora), MySQL, Oracle, Redis
+Messaging Systems: Kafka, Kinesis, SQS, SNS, EventBridge
+Infrastructure as Code: Terraform, Serverless Framework, AWS CDK, CloudFormation
+Monitoring & Analytics: CloudWatch, Athena, Redshift, Glue, QuickSight, Splunk, Dynatrace
+Security & Identity: OAuth2, Okta Integration, LDAP, IAM Policies
+ETL/Data Pipelines: AWS Glue, Lambda-based data processing, Kinesis Streams
+AI/ML: Generative AI coding assistants (GitHub Copilot, Amazon CodeWhisper)
+
+PROFESSIONAL EXPERIENCE
+
+DELTA AIR LINES - CLOUD SOLUTION ARCHITECT / TECHNICAL LEAD
+Xebia Inc. | Jun 2024 - Present | Remote (Dallas, TX)
+Azure to AWS Migration Project for Flight Family Communicator (FFC) Platform
+
+Key Achievements:
+• Designed and implemented cloud migration strategy transitioning Delta's FFC application from hybrid Azure/on-premise environment to AWS
+• Architected serverless microservices using AWS Lambda, API Gateway, and DynamoDB improving scalability and reducing operational costs
+• Led transformation of traditional Express.js APIs to AWS Lambda functions while maintaining feature parity
+• Implemented event-driven architecture using Kafka for inter-service communication replacing legacy Enterprise Service Bus
+• Engineered multi-tier application architecture leveraging AWS services including S3, Postgres Aurora, DocumentDB, and CloudWatch
+• Automated deployment pipelines using GitLab CI/CD and infrastructure-as-code tools (Terraform, AWS CDK)
+
+CIGNA HEALTHCARE - SENIOR CLOUD DEVELOPMENT ENGINEER
+Accenture | Feb 2023 - May 2024 | Remote (Dallas, TX)
+FHIR Standards API Integration Platform Development
+
+Key Achievements:
+• Developed middleware layer enabling healthcare providers to consume MDLive APIs via FHIR standards-compliant interface
+• Built critical patient management microservices (User Profile, Appointments, Health Conditions) using AWS Lambda and Node.js
+• Implemented secure authentication flows integrating Okta for identity management across all API endpoints
+• Containerized Spring Boot applications using Docker for deployment on EKS-managed Kubernetes clusters
+• Created ETL pipelines using Python/AWS Glue for healthcare data transformation and normalization processes
+• Established monitoring dashboards using CloudWatch and built automated alerting systems for production environments
+
+T-MOBILE - MULTI-CLOUD SECURITY SOLUTIONS ENGINEER
+Accenture | Jul 2022 - Dec 2022 | Remote (Dallas, TX)
+PacBot Security Compliance Automation Platform
+
+Key Achievements:
+• Contributed to enterprise security tool (PacBot) that reports compliance violations across multi-cloud environments
+• Developed AWS Lambda functions in Node.js and Python for asset information ingestion and violation feed processing
+• Engineered single-click remediation workflows for common security compliance issues
+• Implemented cross-cloud functionality supporting AWS, Azure, and Google Cloud Platform
+• Automated security policy enforcement through continuous compliance checks integrated with CloudWatch and CloudTrail
+
+COLLEGE BOARD - AWS CLOUD ENGINEER
+Accenture | Mar 2021 - Jun 2202 | Remote (Dallas, TX)
+Microservices Platform Modernization
+
+Key Achievements:
+• Developed and maintained serverless microservices using AWS Lambda, API Gateway, and DynamoDB
+• Upgraded legacy Spring Boot applications while containerizing them for EKS deployment
+• Built custom reporting solution using Athena to query JSON data stored in S3 buckets
+• Implemented CI/CD pipelines using GitLab for automated testing and deployment
+• Enhanced performance of bulk operations (holds, cancellations, modifications) through optimized Lambda configurations
+
+EDUCATION & CERTIFICATIONS
+Master of Technology (MTech), Computer Science
+Institution of Electronics & Telecommunication Engineers (IETE), New Delhi, India
+
+Certifications:
+✓ AWS Certified Solutions Architect – Associate
+✓ AWS Certified Cloud Practitioner
+
+PROFESSIONAL EXPERIENCE CONTINUED
+(Additional positions at Taco Bell, Sirius XM, Cognizant, and other clients would be included in the full resume)
+
+KEY PROJECTS
+AWS SERVERLESS MIGRATION ACCELERATOR
+Led migration of 12+ enterprise applications from traditional architectures to AWS serverless stack, achieving average 40% cost reduction and significant improvements in system resilience.
+
+MULTI-CLOUD SECURITY FRAMEWORK
+Designed and implemented security compliance framework supporting AWS, Azure, and GCP platforms, achieving 95% automated remediation rate for common compliance issues.
+
+HEALTHCARE DATA INTEROPERABILITY PLATFORM
+Built FHIR-compliant middleware solution enabling seamless integration between MDLive APIs and provider systems, handling 2M+ daily transactions.
+
+CLOUD-NATIVE PAYMENT PROCESSING SYSTEM
+Modernized legacy payment processing architecture using AWS Lambda and Kafka, achieving 99.99% uptime SLA while reducing transaction latency by 60%.
+
+INDUSTRY DOMAIN EXPERTISE
+✓ Healthcare (UnitedHealthcare, WellPoint, Kaiser Permanente)
+✓ Telecommunications (Verizon, T-Mobile)
+✓ Payments Processing (MoneyGram, PayPal/Ebay)
+✓ Education (Pearson, College Board)
+✓ Aviation (Delta Airlines)
+✓ Food Services (Taco Bell)
+✓ Connected Vehicles (Sirius XM)
