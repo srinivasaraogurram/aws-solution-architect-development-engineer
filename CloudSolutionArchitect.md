@@ -1,9 +1,3 @@
-Excellent — let’s put this all together into a polished **Cloud Solution Architect profile write-up**. I’ll structure it in two parts:
-
-1. **Overall Summary** — one consolidated professional narrative you can use in proposals, resume intros, or LinkedIn.
-2. **Per-Client Case Studies** — concise write-ups for SiriusXM, College Board, T-Mobile, Cigna, Taco Bell, and Delta Airlines.
-
----
 
 # 🌐 Cloud Solution Architect — AWS Expertise
 
