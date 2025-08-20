@@ -87,16 +87,5 @@ Migrated **Team Communication Platform** from Azure to AWS:
 * Introduced GenAI pilots with **Bedrock (Claude)** for unit test automation & agentive workflows.
   **Impact:** Reduced API latency, improved flight ops reporting, cut infra costs by moving off Azure, and delivered **Well-Architected landing zone** with DR/HA.
 
----
 
-# ✅ Next Steps
 
-This draft can serve as:
-
-* **Resume enhancement:** each client condensed to achievement bullets.
-* **Proposal write-up:** keep narrative style with business problem → solution → impact.
-* **LinkedIn summary:** use overall summary + 2–3 strongest case studies.
-
----
-
-👉 Do you want me to now **condense each client into 3–4 resume bullets** (achievement-style, with metrics) so you can drop directly into your CV, or keep this more **narrative case study style** for client/proposal sharing?
