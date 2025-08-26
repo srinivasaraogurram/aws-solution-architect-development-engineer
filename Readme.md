@@ -79,6 +79,8 @@ Cloud Hands-on Development Engineer:
 Cloud Patterns
 - Failover Cluster
 - Active - Passive US-EAST - US- Webst Regions
+![Implemented Serverless Design Patterns](API-Lambda-AppSync-DynamoDB.png)
+
 
 <!-- AWS Service Integration Flowchart -->
 ```mermaid
@@ -95,7 +97,5 @@ graph TD
     H --> E
     E --> I[DynamoDB]
 
-![Implemented Serverles Design Pattens](API-Lambda-AppSync-DynamoDB.png)
 
-
-Updating in progress..
+'''
