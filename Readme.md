@@ -96,7 +96,7 @@ graph TD
     G --> E[Lambda]
     E --> H[Step Functions]
     E --> I[DynamoDB] 
-    H --> I[DynamoDB] 
+    H --> E[Lambda]
      
 
 
