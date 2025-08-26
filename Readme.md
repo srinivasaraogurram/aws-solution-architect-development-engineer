@@ -90,7 +90,7 @@ graph TD
     A --> D[UpStream]
 
     B --> E[Lambda]
-    C --> E
+    C --> E[Lambda]
     D --> F[SNS]
     F --> G[SQS]
     G --> E[Lambda]
