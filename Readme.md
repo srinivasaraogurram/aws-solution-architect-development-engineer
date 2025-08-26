@@ -84,19 +84,49 @@ Cloud Patterns
 
 <!-- AWS Service Integration Flowchart -->
 ```mermaid
-graph TD
-    A[Client] --> B[AppSync]
-    A --> C[API Gateway]
-    A --> D[UpStream]
+---
+title: AWS Services Orchestration using Serverless Platform
+---
+flowchart LR
+    %% Main AWS Service Orchestration using Serverless Platform
 
-    B --> E[Lambda]
-    C --> E[Lambda]
-    D --> F[SNS]
-    F --> G[SQS]
-    G --> E[Lambda]
-    E --> H[Step Functions]
-    E --> I[DynamoDB] 
-    H --> E[Lambda]
+    Client["Client"] --> AppSync["AppSync"]
+    Client --> APIGW["API<br>Gateway"]
+    Client --> UpStream["UpStream"]
+    UpStream --> SNS["SNS"] --> SQS["SQS"]
+
+    AppSync -- integrates --> LambdaMain[Lambda]
+    APIGW -- integrates --> LambdaMain
+    SQS -- invokes --> LambdaMain
+
+    LambdaMain -- invokes --> StepFn["Step Functions<br>(workflow)"]
+
+    subgraph Workflow [Step Functions Workflow]
+      direction TB
+      LambdaA["Lambda A"]
+      LambdaB["Lambda B"]
+      LambdaC["Lambda C"]
+      LambdaA --> LambdaB --> LambdaC
+      LambdaA -.->|calls| DynamoDB["DynamoDB"]
+      LambdaB -.->|calls| S3["S3"]
+      LambdaC -.->|calls| RDS
+      subgraph RDS [RDS]
+        direction LR
+        Postgres["Postgres"]
+        Oracle["Oracle"]
+        MSSQL["MS SQL Server"]
+        MySQL["MySQL"]
+        MongoDB["MongoDB"]
+      end
+      LambdaC -.-> Postgres
+      LambdaC -.-> Oracle
+      LambdaC -.-> MSSQL
+      LambdaC -.-> MySQL
+      LambdaC -.-> MongoDB
+    end
+
+    StepFn --> Workflow
+    LambdaMain --> DynamoDB
      
 
 
