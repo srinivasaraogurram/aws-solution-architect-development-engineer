@@ -93,9 +93,11 @@ graph TD
     C --> E
     D --> F[SNS]
     F --> G[SQS]
-    G --> H[Step Functions]
-    H --> E
-    E --> I[DynamoDB]
+    G --> E[Lambda]
+    E --> H[Step Functions]
+    E --> I[DynamoDB] 
+    H --> I[DynamoDB] 
+     
 
 
 '''
