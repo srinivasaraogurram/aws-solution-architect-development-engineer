@@ -80,6 +80,20 @@ Cloud Patterns
 - Failover Cluster
 - Active - Passive US-EAST - US- Webst Regions
 
+<!-- AWS Service Integration Flowchart -->
+```mermaid
+graph TD
+    A[Client] --> B[AppSync]
+    A --> C[API Gateway]
+    A --> D[UpStream]
+
+    B --> E[Lambda]
+    C --> E
+    D --> F[SNS]
+    F --> G[SQS]
+    G --> H[Step Functions]
+    H --> E
+    E --> I[DynamoDB]
 
 ![Implemented Serverles Design Pattens](API-Lambda-AppSync-DynamoDB.png)
 
