@@ -9,7 +9,9 @@ Email ID: SrinivasaRao.Gurram@gmail.com
 
 #### Work Authorization: H1B
 
-#### Who am I: I am an AWS Cloud Engineer at Solution Architect Level who can not only Architect the Solution but also develop and provide an end-to-end solution in Java, Node, and Python. Specialized in Cloud Migration and AWS Serverless Lambda development, using GitLab, Jenkins for cicd and CloudFormation, AWS CDK, Terraform for creating AWS resources on Cloud
+#### Who am I: 
+
+* I am an AWS Cloud Engineer at Solution Architect Level who can not only Architect the Solution but also develop and provide an end-to-end solution in Java, Node, and Python. Specialized in Cloud Migration and AWS Serverless Lambda development, using GitLab, Jenkins for cicd and CloudFormation, AWS CDK, Terraform for creating AWS resources on Cloud. *
 
 ## 25 years of IT Experience | AWS Solution Architect| AWS Cloud Solution Hands-on development Engineer- 10 Years  | 14 + Years with Cognizant as Java Application Architect, Technical Lead.
 
