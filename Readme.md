@@ -1,5 +1,7 @@
 ### About Me  
 # Sri - AWS Solution Architect, AWS Cloud Developer Engineer, AWS Serverless, AWS Lambda
+# [AWS Certified Solution Architect](https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges#credly)
+
 
 Srinivasa Rao  Gurram - Sri  
 M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)  
