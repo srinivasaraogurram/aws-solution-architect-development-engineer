@@ -9,7 +9,7 @@ Location: Aubrey, TX 76227, Dallas, TX, USA
 Contact No: +1 925-922-4115  
 Email ID: SrinivasaRao.Gurram@gmail.com 
 
-#### Work Authorization: H1B
+#### Work Authorization: [H1B](http://www.aasoftnet.com)
 
 #### Who am I: 
 ***I am an AWS Cloud Engineer, Solution Architect Level, who can not only Architect the Solution but also develop and provide an end-to-end solution in Java, Node, and Python. Specialized in Cloud Migration and AWS Serverless Lambda development, using GitLab, Jenkins for cicd and CloudFormation, AWS CDK, Terraform for creating AWS resources on Cloud.***
