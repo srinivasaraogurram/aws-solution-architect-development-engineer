@@ -89,7 +89,7 @@ Cloud Patterns
 - Active - Passive US-EAST - US- Webst Regions
 ![Implemented Serverless Design Patterns](API-Lambda-AppSync-DynamoDB.png)
 
-<img width="1671" height="603" alt="AWS-Lambda-Serverless-Implemented-DesignPatterns" src="https://github.com/user-attachments/assets/e85d92ac-dce3-4067-8a3a-d974373544b2" />
+
 
 
 
