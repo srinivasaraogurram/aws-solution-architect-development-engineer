@@ -35,7 +35,7 @@ Career * Started as a Web developer in 1999:
 ## Offshore India Experience:  
 - ITC Infotech       - Bangalore 2001-2004 - 3 Years - Java developer  
 - SLK Software       - Bangalore 2004-2006 - 2 Years - Sr.Java developer
-- ##Cognizant Offshore & Onsite Exp: October-2006-September-2019
+## ***Cognizant Offshore & Onsite Exp: October-2006-September-2019***
 - Cognizant          - Hyderabad 2006-2011 - 5 Years - Lead Sr.Java developer  - Technology Specialist - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 - Cognizant          - Hyderabad 2011-2014 - 3 Years - Application Architect   - Technical Manager- Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 ## Onsite Experience  
