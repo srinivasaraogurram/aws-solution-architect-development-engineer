@@ -38,7 +38,7 @@ Career * Started as a Web developer in 1999:
 ## ***Cognizant Offshore & Onsite Exp: October-2006-September-2019***
 - Cognizant          - Hyderabad 2006-2011 - 5 Years - Lead Sr.Java developer  - Technology Specialist - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 - Cognizant          - Hyderabad 2011-2014 - 3 Years - Application Architect   - Technical Manager- Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
-## Onsite Experience  
+## US Onsite Experience Since Feb 2014
 - Cognizant          - USA 2014 - 2019 5 Years  
                                                       - Java Application Architect   - Technical Manager  - Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
                                                       - AWS Solution Architect       - Technical Manager  - AWS IAM, AWS, S3, AWS EC2, Containerization, Docker, Kubernetes, Serverless
