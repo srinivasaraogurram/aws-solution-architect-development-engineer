@@ -1,5 +1,5 @@
-# Sri - AWS Development Engineer, AWS Solution Architect
-###  _Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com_| 14 Years Cognizant-as TechLead| Cloud Solution Architect| Java Application Architect
+# Sri - AWS Development Engineer, AWS Solution Architect| 14 Years Cognizant-as TechLead| Cloud Solution Architect| Java Application Architect
+###  Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com
 WorkAuthorization: H1B| http://www.aasoftnet.com | Aubrey TX, Dallas, TX
 
 ## Experience
