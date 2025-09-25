@@ -9,7 +9,7 @@ Location: Aubrey, TX 76227, Dallas, TX, USA
 Contact No: +1 925-922-4115  
 Email ID: SrinivasaRao.Gurram@gmail.com 
 
-#### Work Authorization: H1B
+#### Work Authorization: [H1B](http://www.aasoftnet.com)
 
 #### Who am I: 
 ***I am an AWS Cloud Engineer, Solution Architect Level, who can not only Architect the Solution but also develop and provide an end-to-end solution in Java, Node, and Python. Specialized in Cloud Migration and AWS Serverless Lambda development, using GitLab, Jenkins for cicd and CloudFormation, AWS CDK, Terraform for creating AWS resources on Cloud.***
@@ -34,10 +34,11 @@ Career * Started as a Web developer in 1999:
 - ITC Infotech - United Kingdom 2001-2004 - 3 Years - Java developer  
 ## Offshore India Experience:  
 - ITC Infotech       - Bangalore 2001-2004 - 3 Years - Java developer  
-- SLK Software       - Bangalore 2004-2006 - 2 Years - Sr.Java developer  
+- SLK Software       - Bangalore 2004-2006 - 2 Years - Sr.Java developer
+## ***Cognizant Offshore & Onsite Exp: October-2006-September-2019***
 - Cognizant          - Hyderabad 2006-2011 - 5 Years - Lead Sr.Java developer  - Technology Specialist - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
 - Cognizant          - Hyderabad 2011-2014 - 3 Years - Application Architect   - Technical Manager- Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
-## Onsite Experience  
+## US Onsite Experience Since Feb 2014
 - Cognizant          - USA 2014 - 2019 5 Years  
                                                       - Java Application Architect   - Technical Manager  - Java Projects  - Java, Structs, Spring Core, Spring MVC, Hibernate, JPA, Rational Unified Process -Class, Sequence, Collaboration Diagram  
                                                       - AWS Solution Architect       - Technical Manager  - AWS IAM, AWS, S3, AWS EC2, Containerization, Docker, Kubernetes, Serverless
@@ -89,52 +90,8 @@ Cloud Patterns
 ![Implemented Serverless Design Patterns](API-Lambda-AppSync-DynamoDB.png)
 
 
-<!-- AWS Service Integration Flowchart -->
-```mermaid
----
-title: AWS Services Orchestration using Serverless Platform
----
-flowchart LR
-    %% Main AWS Service Orchestration using Serverless Platform
-
-    Client["Client"] --> AppSync["AppSync"]
-    Client --> APIGW["API<br>Gateway"]
-    Client --> UpStream["UpStream"]
-    UpStream --> SNS["SNS"] --> SQS["SQS"]
-
-    AppSync -- integrates --> LambdaMain[Lambda]
-    APIGW -- integrates --> LambdaMain
-    SQS -- invokes --> LambdaMain
-
-    LambdaMain -- invokes --> StepFn["Step Functions<br>(workflow)"]
-
-    subgraph Workflow [Step Functions Workflow]
-      direction TB
-      LambdaA["Lambda A"]
-      LambdaB["Lambda B"]
-      LambdaC["Lambda C"]
-      LambdaA --> LambdaB --> LambdaC
-      LambdaA -.->|calls| DynamoDB["DynamoDB"]
-      LambdaB -.->|calls| S3["S3"]
-      LambdaC -.->|calls| RDS
-      subgraph RDS [RDS]
-        direction LR
-        Postgres["Postgres"]
-        Oracle["Oracle"]
-        MSSQL["MS SQL Server"]
-        MySQL["MySQL"]
-        MongoDB["MongoDB"]
-      end
-      LambdaC -.-> Postgres
-      LambdaC -.-> Oracle
-      LambdaC -.-> MSSQL
-      LambdaC -.-> MySQL
-      LambdaC -.-> MongoDB
-    end
-
-    StepFn --> Workflow
-    LambdaMain --> DynamoDB
-     
 
 
-'''
+
+
+
