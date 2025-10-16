@@ -88,6 +88,6 @@ Spring, TX 77380, USA
 # Current Location
 Location: Aubrey, TX, Dallas, TX: 76227
 # Contact Info
-Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com
+Srinivasa Rao Gurram|+1 925-922-4115 |srinivasarao.gurram@gmail.com   
 [More in Detail Version please click here](Readme.md)
 
