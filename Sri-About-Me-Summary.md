@@ -2,6 +2,23 @@
 ###  Srinivasa Rao Gurram | +1 925-922-4115 | srinivasarao.gurram@gmail.com
 WorkAuthorization: H1B| http://www.aasoftnet.com | Aubrey TX, Dallas, TX
 
+## MicroService API AWS Certified Solution Architect, Developer, Engineer
+### What I do
+### Architect Solutions for
+* On Prem to AWS Cloud Migrations - Lift and Shift, Enhance with Cloud Native Application using AWS Lambda, Serverless EKS
+### Develop MicroService using 
+* Java 8- Java 25, Spring Boot, Spring Cloud, Spring JPA, Hibernate -ORM with AWS ECS with Farget, EKS
+* NodeJS, ExpressJS, NestJS, Fastify
+* Python, Fastify, FastAPI
+* Kafka Messsaging Services, Enterprise Service Buss
+* CI/CD with Gitlab, Github Actions, Jenkins
+* IAC with Terraform, AWS CDK with TypeScript, Pulumini
+* AWS Glue ETL
+* AWS Athena Reports
+* Cloud Watch, Cloud Watch Dashboards
+* Kubernetes with Aurgo CD
+  
+  
 ## Experience
 * 10 Years of US Onsite Experience - working USA since 2014
 * 25 Years of IT Experience
