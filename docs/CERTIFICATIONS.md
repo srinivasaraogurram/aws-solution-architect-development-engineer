@@ -21,18 +21,18 @@ AWS Solution Architect & Cloud Development Engineer
 
 ## 📜 Certificate PDFs
 
-All certificate PDFs are stored in the repository at `04-Certifications/certificates/`
+All certificate PDFs are available for direct download from this site.
 
 ### Available Certificates
 
-1. **Introduction to AWS WAF**  
-   [View PDF](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)
+1. **AWS Amazon Q - Generative AI**  
+   [View PDF](./certificates/Sri-Amazon-Q-GenAI.pdf) | [GitHub Link](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Amazon-Q-GenAI.pdf)
 
-2. **AWS Amazon Q GenAI**  
-   [View PDF](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Amazon-Q-GenAI.pdf)
+2. **AWS Amazon Q Certification**  
+   [View PDF](./certificates/Sri-Certification-AWS-Amazon-Q.pdf) | [GitHub Link](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Certification-AWS-Amazon-Q.pdf)
 
-3. **AWS Amazon Q Certification**  
-   [View PDF](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Certification-AWS-Amazon-Q.pdf)
+3. **Introduction to AWS WAF**  
+   [View PDF](./certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf) | [GitHub Link](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/blob/main/04-Certifications/certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)
 
 ---
 

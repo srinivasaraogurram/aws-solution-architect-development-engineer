@@ -9,7 +9,7 @@ A concise, organized site for an AWS Solution Architect and Cloud Development En
 ## Quick links
 
 - Home: [Portfolio Homepage](https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/)
-- Certifications: [View Certifications](./CERTIFICATIONS.html)
+- Certifications: [View Certifications](./certifications.html) | [Download PDFs](./CERTIFICATIONS.html)
 - Repository: [GitHub Repository](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer)
 - Profile: [Professional Profile](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/01-Profile)
 - Technical Docs: [Architecture & Patterns](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/02-Technical-Documentation)
