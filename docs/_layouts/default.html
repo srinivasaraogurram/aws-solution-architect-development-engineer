@@ -467,6 +467,26 @@
                     </div>
 
             <div class="nav-section">
+                <h3>Site Tree</h3>
+                <ul class="nav-tree">
+                    {% assign all_pages = site.pages | sort: 'url' %}
+                    {% for p in all_pages %}
+                        {% comment %}
+                        Exclude assets, certificates (PDF listing), feed/404 and the root index duplication.
+                        {% endcomment %}
+                        {% if p.url == '/' or p.url contains '/assets/' or p.url contains '/certificates/' or p.url contains '/feed.xml' or p.url contains '/sitemap.xml' or p.url contains '/404' %}
+                            {% continue %}
+                        {% endif %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}" class="{% if page.url == p.url %}active{% endif %}">
+                                <i class="fas fa-file"></i> {{ p.title | default: p.url }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="nav-section">
                 <h3>Quick Access</h3>
                 <ul class="nav-tree">
                     <li><a href="{{ site.baseurl }}/certificates/Sri-Amazon-Q-GenAI.pdf" target="_blank">
