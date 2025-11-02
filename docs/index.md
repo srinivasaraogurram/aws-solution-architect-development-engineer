@@ -99,7 +99,7 @@ I am an **AWS Cloud Engineer / Solution Architect** who delivers end-to-end solu
     <i class="fas fa-brain"></i> Amazon Q Certified
 </a>
 
-**[View All Certifications & Download PDFs →](./certifications.html)**
+**[Table View — Certifications →](./04-Certifications/)**
 
 ## Professional Snapshot
 
