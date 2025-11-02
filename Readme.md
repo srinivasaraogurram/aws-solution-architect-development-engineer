@@ -27,7 +27,12 @@ Email ID: SrinivasaRao.Gurram@gmail.com
 
 - Downloadable certificate (PDF): [Certifications/Sri-Certification-Introduction to AWS WAF.pdf](./Certifications/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)
 
-See the consolidated certification badges and downloadable certificates in [CERTIFICATIONS.md](../CERTIFICATIONS.md).
+See a friendlier, navigable site version in the `docs/` folder (published via GitHub Pages).
+
+- Local docs homepage: [docs/index.md](./docs/index.md)
+- Certifications index: [docs/CERTIFICATIONS.md](./docs/CERTIFICATIONS.md)
+
+(If GitHub Pages is enabled for this repository, the site will be available at `https://<your-github-username>.github.io/aws-solution-architect-development-engineer/`.)
 
 
 Career * Started as a Web developer in 1999:  
