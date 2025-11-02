@@ -1,7 +1,7 @@
-name: Deploy Jekyll site to Pages
+name: Deploy React site to Pages
 
 on:
-  # Deploy when pushing to any sri-works-* branch (e.g., sri-works-dev-1.0, sri-works-prod-2.0)
+  # Deploy when pushing to any sri-works-* branch (e.g., sri-works-dev-2.0, sri-works-prod-1.0)
   push:
     branches: ["sri-works-**"]
 
@@ -25,28 +25,31 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: './docs'
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      - name: Build with Jekyll
-        run: |
-          cd docs
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './docs/_site'
+        - name: Checkout
+          uses: actions/checkout@v4
+        - name: Setup Node
+          uses: actions/setup-node@v4
+          with:
+            node-version: '20'
+        - name: Setup Pages
+          id: pages
+          uses: actions/configure-pages@v4
+        - name: Install dependencies
+          working-directory: ./react-site
+          run: npm install
+        - name: Copy certificates into public
+          run: |
+            mkdir -p react-site/public/certificates
+            if [ -d docs/certificates ]; then cp -r docs/certificates/* react-site/public/certificates/ || true; fi
+        - name: Build React site
+          working-directory: ./react-site
+          env:
+            VITE_BASE_PATH: "${{ steps.pages.outputs.base_path }}"
+          run: npm run build
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v3
+          with:
+            path: './react-site/dist'
 
   # Deployment job
   deploy:
