@@ -54,8 +54,6 @@ Welcome to my professional portfolio. This site showcases my expertise in cloud 
             <p>Complete source code and documentation</p>
         </div>
     </a>
-</div>
-
     <a href="./repositories.html" class="quick-link">
         <i class="fab fa-github"></i>
         <div class="quick-link-content">
@@ -63,11 +61,10 @@ Welcome to my professional portfolio. This site showcases my expertise in cloud 
             <p>50+ repos categorized by technology</p>
         </div>
     </a>
----
-        <i class="fas fa-folder-open"></i>
+</div>
+
 ## About Me
-            <h4>Portfolio Repository</h4>
-            <p>Source code for this site</p>
+
 **Contact**: +1 925-922-4115  
 **Email**: [SrinivasaRao.Gurram@gmail.com](mailto:srinivasarao.gurram@gmail.com)  
 **Education**: M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)
