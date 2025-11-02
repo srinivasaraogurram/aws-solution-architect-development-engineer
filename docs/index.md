@@ -8,12 +8,13 @@ A concise, organized site for an AWS Solution Architect and Cloud Development En
 
 ## Quick links
 
-- Home: [Portfolio Homepage](https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/)
-- Certifications: [View Certifications](./certifications.html) | [Download PDFs](./CERTIFICATIONS.html)
-- Repository: [GitHub Repository](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer)
-- Profile: [Professional Profile](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/01-Profile)
-- Technical Docs: [Architecture & Patterns](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/02-Technical-Documentation)
-- Resumes: [Multiple Variants](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/03-Resume)
+- **Home**: [Portfolio Homepage](https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/)
+- **Profile**: [Professional Profile](./profile.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/01-Profile)
+- **Certifications**: [View Certifications](./certifications.html) | [Download PDFs](./CERTIFICATIONS.html)
+- **Technical Docs**: [Architecture & Patterns](./technical-docs.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/02-Technical-Documentation)
+- **Resume**: [Multiple Variants](./resume.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/03-Resume)
+- **Code Samples**: [View Examples](./code-samples.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/05-Code-Samples)
+- **Repository**: [GitHub Repository](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer)
 
 ---
 
@@ -30,7 +31,7 @@ I am an AWS Cloud Engineer / Solution Architect who delivers end-to-end solution
 
 ## Certifications
 
-See full list and downloadable artifacts: [CERTIFICATIONS.md](./CERTIFICATIONS.md)
+See full list and downloadable artifacts: [View Certifications](./certifications.html)
 
 ## Professional snapshot
 
