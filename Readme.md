@@ -25,6 +25,10 @@ Email ID: SrinivasaRao.Gurram@gmail.com
   - Java Certified Application Architect
   - Certified SME in Cognization Code Quality Platform
 
+- Downloadable certificate (PDF): [Certifications/Sri-Certification-Introduction to AWS WAF.pdf](./Certifications/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)
+
+See the consolidated certification badges and downloadable certificates in [CERTIFICATIONS.md](../CERTIFICATIONS.md).
+
 
 Career * Started as a Web developer in 1999:  
 
