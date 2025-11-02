@@ -8,9 +8,12 @@ A concise, organized site for an AWS Solution Architect and Cloud Development En
 
 ## Quick links
 
-- Home: `/docs/index.md`
-- Certifications: `CERTIFICATIONS.md`
-- Downloadable certificates: `/Certifications/`
+- Home: [Portfolio Homepage](https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/)
+- Certifications: [View Certifications](./CERTIFICATIONS.html)
+- Repository: [GitHub Repository](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer)
+- Profile: [Professional Profile](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/01-Profile)
+- Technical Docs: [Architecture & Patterns](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/02-Technical-Documentation)
+- Resumes: [Multiple Variants](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/03-Resume)
 
 ---
 
@@ -80,8 +83,10 @@ Notable clients/projects (last 6 years):
 
 ## How to view certificates
 
-- Local certificate PDFs live in the `Certifications/` folder. Use a PDF viewer extension in VS Code (recommended in `.vscode/extensions.json`) or download directly from the repository.
-- Certifications index: [CERTIFICATIONS.md](./CERTIFICATIONS.md)
+- Certificate PDFs are available in the repository at `04-Certifications/certificates/`
+- Online verification: [Credly Profile](https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges)
+- Full certification details: [CERTIFICATIONS.md](./CERTIFICATIONS.html)
+- Repository certifications: [View on GitHub](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/04-Certifications)
 
 ---
 
