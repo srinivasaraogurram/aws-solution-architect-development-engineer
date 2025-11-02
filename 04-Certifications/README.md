@@ -94,6 +94,26 @@ AWS Solution Architect & Cloud Development Engineer
 
 ### AWS Specialized Training
 
+#### ✅ AWS Amazon Q - Generative AI
+**Issuer**: AWS  
+**Certificate**: [View PDF](./certificates/Sri-Amazon-Q-GenAI.pdf)  
+**Date**: [Check certificate]  
+**Topics Covered**:
+- Generative AI fundamentals with Amazon Q
+- AI-powered code assistance and development
+- Leveraging Amazon Q for productivity
+- Best practices for AI-assisted development
+
+#### ✅ AWS Amazon Q Certification
+**Issuer**: AWS  
+**Certificate**: [View PDF](./certificates/Sri-Certification-AWS-Amazon-Q.pdf)  
+**Date**: [Check certificate]  
+**Topics Covered**:
+- Amazon Q business applications
+- AI-powered enterprise solutions
+- Integration with AWS services
+- Customer service automation
+
 #### ✅ Introduction to AWS WAF
 **Issuer**: AWS  
 **Certificate**: [View PDF](./certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)  
@@ -146,6 +166,14 @@ Enterprise
 - ✅ IAM and Security
 - ✅ CloudWatch and Monitoring
 
+### AWS Amazon Q & AI
+- ✅ Generative AI Development
+- ✅ AI-Powered Code Assistance
+- ✅ Amazon Q Business Applications
+- ✅ AI Integration Patterns
+- ✅ Automated Customer Service
+- ✅ AI-Enhanced Productivity Tools
+
 ### Java Architect
 - ✅ Spring Framework
 - ✅ Spring Boot
@@ -187,7 +215,15 @@ Enterprise
 ### Available PDFs
 Located in the `certificates/` subdirectory:
 
-1. **AWS WAF Certification**
+1. **AWS Amazon Q - Generative AI**
+   - File: `Sri-Amazon-Q-GenAI.pdf`
+   - [View Certificate](./certificates/Sri-Amazon-Q-GenAI.pdf)
+
+2. **AWS Amazon Q Certification**
+   - File: `Sri-Certification-AWS-Amazon-Q.pdf`
+   - [View Certificate](./certificates/Sri-Certification-AWS-Amazon-Q.pdf)
+
+3. **AWS WAF Certification**
    - File: `Sri-Certification-Introduction to AWS WAF.pdf`
    - [View Certificate](./certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf)
 
@@ -262,6 +298,8 @@ All AWS certifications can be verified independently through:
 | 2019 | AWS Certified Cloud Practitioner | AWS |
 | 2020 | AWS Certified Solution Architect | AWS |
 | 2021 | AWS WAF Training | AWS |
+| 2024 | AWS Amazon Q - Generative AI | AWS |
+| 2024 | AWS Amazon Q Certification | AWS |
 
 ---
 
