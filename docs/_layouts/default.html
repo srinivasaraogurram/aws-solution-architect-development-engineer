@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    
+    <!-- Cache control and SEO -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Srinivasa Rao Gurram (Sri)">
+    <meta name="keywords" content="AWS Solution Architect, Cloud Engineer, Java Developer, Serverless, Node.js, Python">
 
     <!-- Fonts -->
     <link
@@ -16,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/enhancements.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/enhancements.css?v={{ site.time | date: '%s' }}">
     <style>
         :root {
             --primary-color: #2c5aa0;
@@ -489,7 +497,7 @@
         </footer>
         
         <!-- JavaScript for enhanced interactivity -->
-        <script src="{{ site.baseurl }}/assets/js/app.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/app.js?v={{ site.time | date: '%s' }}"></script>
         </body>
         
         </html>
