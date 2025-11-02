@@ -1,0 +1,239 @@
+{
+  "project": {
+    "name": "AWS Solution Architect Development Engineer Portfolio",
+    "repository": "aws-solution-architect-development-engineer",
+    "owner": "srinivasaraogurram",
+    "description": "Professional portfolio showcasing AWS Solution Architect expertise, certifications, and development projects",
+    "type": "documentation",
+    "visibility": "public",
+    "created": "2025-11-02",
+    "last_updated": "2025-11-02"
+  },
+  "owner_profile": {
+    "name": "Srinivasa Rao Gurram",
+    "preferred_name": "Sri",
+    "title": "AWS Solution Architect & Cloud Development Engineer",
+    "location": "Aubrey, TX 76227 (Dallas area)",
+    "email": "SrinivasaRao.Gurram@gmail.com",
+    "phone": "+1 925-922-4115",
+    "work_authorization": "H1B",
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "institution": "ALCCS, IETE New Delhi",
+      "url": "https://www.iete.org/courses-academics-and-exams/"
+    },
+    "experience_years": 25,
+    "aws_experience_years": 10,
+    "current_employer": "AA Software & Networking",
+    "employer_url": "http://www.aasoftnet.com"
+  },
+  "technology_stack": {
+    "cloud_platforms": ["AWS", "Azure", "GCP"],
+    "primary_languages": ["Java", "Node.js", "Python"],
+    "aws_services": [
+      "Lambda",
+      "API Gateway",
+      "AppSync",
+      "DynamoDB",
+      "S3",
+      "Athena",
+      "Glue",
+      "Kinesis",
+      "Step Functions",
+      "EKS",
+      "EC2",
+      "RDS",
+      "CloudFormation",
+      "CDK"
+    ],
+    "frameworks": [
+      "Spring Boot",
+      "Express.js",
+      "Serverless Framework",
+      "SAM"
+    ],
+    "iac_tools": [
+      "CloudFormation",
+      "AWS CDK",
+      "Terraform",
+      "Serverless Framework"
+    ],
+    "cicd_tools": [
+      "Jenkins",
+      "GitLab CI/CD",
+      "AWS CodePipeline",
+      "GitHub Actions"
+    ],
+    "databases": {
+      "relational": ["MS SQL Server", "Oracle", "PostgreSQL", "MySQL"],
+      "nosql": ["DynamoDB", "Cassandra", "MongoDB"]
+    }
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solution Architect",
+      "issuer": "Amazon Web Services",
+      "status": "active",
+      "verification_url": "https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges#credly"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "status": "active"
+    },
+    {
+      "name": "AWS Partner Trained Solution Architect",
+      "issuer": "Cognizant",
+      "status": "active"
+    },
+    {
+      "name": "Cognizant Certified Solution Architect",
+      "issuer": "Cognizant",
+      "status": "active"
+    },
+    {
+      "name": "Java Certified Associate 1.5",
+      "issuer": "Oracle",
+      "status": "active"
+    },
+    {
+      "name": "Java Certified Application Architect",
+      "issuer": "Oracle",
+      "status": "active"
+    },
+    {
+      "name": "Certified SME in Cognizant Code Quality Platform",
+      "issuer": "Cognizant",
+      "status": "active"
+    }
+  ],
+  "content_categories": {
+    "profile": {
+      "files": ["Readme.md", "Sri-About-Me-Summary.md", "Prasanna.md"],
+      "description": "Professional profiles and summaries"
+    },
+    "technical_documentation": {
+      "files": [
+        "CloudSolutionArchitect.md",
+        "AWS-Design-Serverless-Design-Pattens.md",
+        "aws-design-patterns-lambda.md"
+      ],
+      "description": "AWS architecture patterns and design documentation"
+    },
+    "resume": {
+      "directory": "Resume/",
+      "variants": [
+        "AWS Architect focused",
+        "Azure Architect focused",
+        "Multi-cloud Architect",
+        "Full-stack Developer",
+        "Backend Developer"
+      ],
+      "description": "Multiple resume variants for different roles"
+    },
+    "certifications": {
+      "directory": "Certifications/",
+      "format": "PDF",
+      "description": "Downloadable certification documents"
+    },
+    "code_samples": {
+      "directory": "AWS-Java-Node-Python-Engineer/",
+      "languages": ["Java", "Node.js", "Python"],
+      "description": "Code samples and project examples"
+    },
+    "github_pages": {
+      "directory": "docs/",
+      "theme": "jekyll-theme-cayman",
+      "url": "https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/",
+      "description": "Professional website built with Jekyll"
+    },
+    "supporting_documents": {
+      "files": [
+        "education-background-v1.md",
+        "educational-qualification.md",
+        "Employee-References.md"
+      ],
+      "description": "Educational background and references"
+    }
+  },
+  "github_pages": {
+    "enabled": true,
+    "source_branch": "main",
+    "source_directory": "docs/",
+    "theme": "jekyll-theme-cayman",
+    "custom_domain": null,
+    "build_status": "needs_verification",
+    "workflow_files": [
+      ".github/workflows/gh-pages-deploy.yml",
+      ".github/workflows/deploy-pages.yml"
+    ],
+    "issues": [
+      "Duplicate workflow files detected",
+      "Deployment status needs verification"
+    ]
+  },
+  "repository_stats": {
+    "total_markdown_files": 15,
+    "total_directories": 8,
+    "resume_variants": 5,
+    "certification_pdfs": "multiple",
+    "code_sample_languages": 3
+  },
+  "reorganization_project": {
+    "start_date": "2025-11-02",
+    "status": "in_progress",
+    "objectives": [
+      "Create hierarchical structure with numbering",
+      "Implement agent tracking system",
+      "Fix GitHub Pages deployment",
+      "Create comprehensive navigation",
+      "Commit incrementally with proper messages"
+    ],
+    "current_phase": "Agent tracking system creation",
+    "completion_percentage": 15
+  },
+  "agent_system": {
+    "enabled": true,
+    "directory": ".agent/",
+    "components": {
+      "conversation_log": {
+        "file": "conversation-log.md",
+        "status": "created",
+        "purpose": "Track all agent-user interactions"
+      },
+      "user_requirements": {
+        "file": "user-requirements.md",
+        "status": "created",
+        "purpose": "Document project requirements and success criteria"
+      },
+      "project_metadata": {
+        "file": "project-metadata.json",
+        "status": "created",
+        "purpose": "Machine-readable project information"
+      },
+      "task_tracker": {
+        "file": "task-tracker.md",
+        "status": "pending",
+        "purpose": "Detailed task management with status updates"
+      }
+    }
+  },
+  "version_control": {
+    "vcs": "git",
+    "remote": "github",
+    "default_branch": "main",
+    "commit_strategy": "incremental",
+    "commit_format": "[Category] Brief description",
+    "last_commit": null,
+    "pending_commits": [
+      "Create agent tracking system"
+    ]
+  },
+  "metadata": {
+    "schema_version": "1.0",
+    "generated_by": "GitHub Copilot Agent",
+    "generation_date": "2025-11-02",
+    "last_modified": "2025-11-02",
+    "maintained_by": "agent"
+  }
+}
