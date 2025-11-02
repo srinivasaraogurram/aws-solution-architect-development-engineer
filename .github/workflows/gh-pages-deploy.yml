@@ -16,31 +16,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+        with:
+          enablement: true
       
       - name: Build with Jekyll
-        run: |
-          cd docs
-          gem install bundler jekyll
-          bundle init
-          bundle add jekyll --version "~> 4.3.0"
-          bundle add webrick
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_site
+          path: ./_site
 
   deploy:
     needs: build
