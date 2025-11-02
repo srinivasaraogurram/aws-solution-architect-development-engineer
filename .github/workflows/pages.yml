@@ -1,9 +1,9 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the feature branch for deployment
+  # Deploy when pushing to any sri-works-* branch (e.g., sri-works-dev-1.0, sri-works-prod-2.0)
   push:
-    branches: ["feature/deploy-from-branch"]
+    branches: ["sri-works-**"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
