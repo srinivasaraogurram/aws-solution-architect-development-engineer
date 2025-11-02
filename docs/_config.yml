@@ -46,3 +46,10 @@ navigation:
     url: /code-samples.html
   - title: Repositories
     url: /repositories.html
+
+# Apply default layout to all pages so sidebar/tree appear site-wide
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

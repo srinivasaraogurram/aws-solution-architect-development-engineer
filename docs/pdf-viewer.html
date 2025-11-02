@@ -1,0 +1,134 @@
+---
+title: PDF Viewer
+layout: default
+---
+
+# Document Viewer
+
+<p>This viewer displays PDFs within the site layout so you can navigate with the sidebar. Use the controls below to zoom or change pages.</p>
+
+<div id="pdf-controls" class="pdf-controls">
+  <button id="prevPage" class="btn">Prev</button>
+  <span>Page <span id="pageNum">1</span> / <span id="pageCount">1</span></span>
+  <button id="nextPage" class="btn">Next</button>
+  <span style="margin-left:1rem"></span>
+  <button id="zoomOut" class="btn">-</button>
+  <button id="zoomIn" class="btn">+</button>
+  <a id="downloadLink" class="btn" target="_blank" rel="noopener">Download</a>
+</div>
+
+<canvas id="pdfCanvas" style="width:100%; border:1px solid #e2e8f0; background:#fff"></canvas>
+
+<div id="pdfError" style="display:none; color:#b00020; padding:1rem 0;"></div>
+
+<script>
+  // Expose baseurl for relative resolution
+  window.SITE_BASEURL = window.SITE_BASEURL || '{{ site.baseurl }}';
+</script>
+<!-- pdf.js from CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" integrity="sha512-jB6kHqWjD6oQkAnXJp0Y6b2yqg3TKmP0bQF7B4pQ1l5G4r3h3Yc8S0qL3v9m4kWQxQmCW8u4Bv+2XvR9b5t1jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    let fileParam = params.get('file') || '';
+
+    function toAbsolutePdfUrl(input) {
+      if (!input) return '';
+      // Already absolute
+      if (/^https?:\/\//i.test(input)) return input;
+      // Ensure leading slash relative to site base
+      if (input.startsWith('./')) input = input.slice(2);
+      if (!input.startsWith('/')) input = '/' + input;
+      return location.origin + window.SITE_BASEURL + input;
+    }
+
+    const pdfUrl = toAbsolutePdfUrl(decodeURIComponent(fileParam));
+    const errorEl = document.getElementById('pdfError');
+    const canvas = document.getElementById('pdfCanvas');
+    const ctx = canvas.getContext('2d');
+    const pageNumEl = document.getElementById('pageNum');
+    const pageCountEl = document.getElementById('pageCount');
+    const downloadLink = document.getElementById('downloadLink');
+
+    if (!pdfUrl) {
+      errorEl.style.display = 'block';
+      errorEl.textContent = 'No PDF specified. Append ?file=/certificates/your.pdf to the URL.';
+      return;
+    }
+
+    // Configure worker
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    let pdfDoc = null,
+        pageNum = 1,
+        scale = 1.2,
+        rendering = false,
+        pendingPage = null;
+
+    downloadLink.href = pdfUrl;
+
+    function renderPage(num) {
+      rendering = true;
+      pdfDoc.getPage(num).then(function(page) {
+        const viewport = page.getViewport({ scale });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        const renderContext = { canvasContext: ctx, viewport };
+        const renderTask = page.render(renderContext);
+        renderTask.promise.then(function() {
+          rendering = false;
+          if (pendingPage !== null) {
+            renderPage(pendingPage);
+            pendingPage = null;
+          }
+        });
+        pageNumEl.textContent = num;
+      });
+    }
+
+    function queueRenderPage(num) {
+      if (rendering) {
+        pendingPage = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    function showPrevPage() {
+      if (pageNum <= 1) return;
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+
+    function showNextPage() {
+      if (pageNum >= pdfDoc.numPages) return;
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+
+    function zoomIn() {
+      scale = Math.min(scale + 0.2, 3);
+      queueRenderPage(pageNum);
+    }
+
+    function zoomOut() {
+      scale = Math.max(scale - 0.2, 0.5);
+      queueRenderPage(pageNum);
+    }
+
+    document.getElementById('prevPage').addEventListener('click', showPrevPage);
+    document.getElementById('nextPage').addEventListener('click', showNextPage);
+    document.getElementById('zoomIn').addEventListener('click', zoomIn);
+    document.getElementById('zoomOut').addEventListener('click', zoomOut);
+
+    pdfjsLib.getDocument(pdfUrl).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      pageCountEl.textContent = pdfDoc.numPages;
+      renderPage(pageNum);
+    }).catch(function(err) {
+      errorEl.style.display = 'block';
+      errorEl.textContent = 'Failed to load PDF: ' + err.message;
+    });
+  })();
+</script>

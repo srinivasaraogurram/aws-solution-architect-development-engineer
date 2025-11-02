@@ -126,6 +126,22 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('loaded');
     }, 100);
 
+    // Route PDF links through the in-site PDF viewer unless opted out
+    try {
+        const baseurl = window.SITE_BASEURL || '';
+        const viewer = (window.PDF_VIEWER || (baseurl + '/pdf-viewer.html'));
+        document.querySelectorAll('a[href$=".pdf"]').forEach(a => {
+            if (a.classList.contains('no-pdf-viewer')) return;
+            const original = a.getAttribute('href');
+            if (!original) return;
+            const target = viewer + '?file=' + encodeURIComponent(original);
+            a.setAttribute('href', target);
+            // keep target behavior if set
+        });
+    } catch (e) {
+        console.warn('PDF viewer routing skipped:', e);
+    }
+
     // Progressive enhancement for better performance
     if ('IntersectionObserver' in window) {
         // Lazy load images if any
