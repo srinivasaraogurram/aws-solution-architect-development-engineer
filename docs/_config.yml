@@ -1,8 +1,46 @@
 title: Sri - AWS Solution Architect
-description: AWS Solution Architect and Cloud Development Engineer Portfolio
-theme: jekyll-theme-cayman
+description: AWS Solution Architect and Cloud Development Engineer Portfolio - 25 years IT experience, AWS certified, specializing in serverless architecture and cloud migration
+url: https://srinivasaraogurram.github.io
+baseurl: /aws-solution-architect-development-engineer
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Relative links configuration
 relative_links:
   enabled: true
   collections: true
+
+# SEO and social
+author:
+  name: Srinivasa Rao Gurram (Sri)
+  email: srinivasarao.gurram@gmail.com
+  location: Aubrey, TX
+  
+social:
+  - title: GitHub
+    url: https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer
+  - title: Credly
+    url: https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Profile
+    url: /profile.html
+  - title: Certifications
+    url: /certifications.html
+  - title: Technical Docs 
+    url: /technical-docs.html
+  - title: Resume
+    url: /resume.html
+  - title: Code Samples
+    url: /code-samples.html

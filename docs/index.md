@@ -1,56 +1,111 @@
 ---
-title: Sri - AWS Solution Architect
+title: Portfolio Homepage
 ---
 
 # Sri (Srinivasa Rao Gurram)
+**AWS Solution Architect & Cloud Development Engineer**
 
-A concise, organized site for an AWS Solution Architect and Cloud Development Engineer. This page groups professional details, certifications, skills, and notable projects into a readable, hierarchical format.
-
-## Quick links
-
-- **Home**: [Portfolio Homepage](https://srinivasaraogurram.github.io/aws-solution-architect-development-engineer/)
-- **Profile**: [Professional Profile](./profile.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/01-Profile)
-- **Certifications**: [View Certifications](./certifications.html) | [Download PDFs](./CERTIFICATIONS.html)
-- **Technical Docs**: [Architecture & Patterns](./technical-docs.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/02-Technical-Documentation)
-- **Resume**: [Multiple Variants](./resume.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/03-Resume)
-- **Code Samples**: [View Examples](./code-samples.html) | [GitHub Source](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/05-Code-Samples)
-- **Repository**: [GitHub Repository](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer)
+Welcome to my professional portfolio. This site showcases my expertise in cloud architecture, serverless development, and enterprise solution design with comprehensive documentation, certifications, and practical examples.
 
 ---
 
-## About
+## Quick Navigation
 
-Srinivasa Rao Gurram (Sri)
+<div class="quick-links">
+    <a href="./profile.html" class="quick-link">
+        <i class="fas fa-user"></i>
+        <div class="quick-link-content">
+            <h4>Professional Profile</h4>
+            <p>25 years IT experience, AWS expertise</p>
+        </div>
+    </a>
+    <a href="./certifications.html" class="quick-link">
+        <i class="fas fa-certificate"></i>
+        <div class="quick-link-content">
+            <h4>Certifications</h4>
+            <p>AWS certified with downloadable PDFs</p>
+        </div>
+    </a>
+    <a href="./technical-docs.html" class="quick-link">
+        <i class="fas fa-cogs"></i>
+        <div class="quick-link-content">
+            <h4>Architecture & Patterns</h4>
+            <p>Cloud solutions and case studies</p>
+        </div>
+    </a>
+    <a href="./code-samples.html" class="quick-link">
+        <i class="fas fa-code"></i>
+        <div class="quick-link-content">
+            <h4>Code Examples</h4>
+            <p>Java, Node.js, Python samples</p>
+        </div>
+    </a>
+    <a href="./resume.html" class="quick-link">
+        <i class="fas fa-file-alt"></i>
+        <div class="quick-link-content">
+            <h4>Resume Variants</h4>
+            <p>Multiple formats for different roles</p>
+        </div>
+    </a>
+    <a href="https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer" class="quick-link" target="_blank">
+        <i class="fab fa-github"></i>
+        <div class="quick-link-content">
+            <h4>GitHub Repository</h4>
+            <p>Complete source code and documentation</p>
+        </div>
+    </a>
+</div>
 
-- Location: Aubrey, TX (Dallas area)
-- Contact: +1 925-922-4115
-- Email: SrinivasaRao.Gurram@gmail.com
-- Education: M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)
+---
 
-I am an AWS Cloud Engineer / Solution Architect who delivers end-to-end solutions (design + implementation) using Java, Node.js and Python. I specialize in Cloud Migration and Serverless solutions using AWS Lambda, API Gateway, Step Functions, and related services.
+## About Me
 
-## Certifications
+**Location**: Aubrey, TX (Dallas area)  
+**Contact**: +1 925-922-4115  
+**Email**: [SrinivasaRao.Gurram@gmail.com](mailto:srinivasarao.gurram@gmail.com)  
+**Education**: M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)
 
-See full list and downloadable artifacts: [View Certifications](./certifications.html)
+I am an **AWS Cloud Engineer / Solution Architect** who delivers end-to-end solutions (design + implementation) using Java, Node.js and Python. I specialize in **Cloud Migration** and **Serverless solutions** using AWS Lambda, API Gateway, Step Functions, and related services.
 
-## Professional snapshot
+## Latest Certifications
 
-- 25 years in IT
-- 10+ years working as AWS Solution Architect / Cloud Engineer
-- Extensive experience in Java application architecture, serverless, CI/CD and IaC (CloudFormation, AWS CDK, Terraform)
+<a href="./certifications.html" class="cert-badge">
+    <i class="fas fa-certificate"></i> AWS Solution Architect
+</a>
+<a href="./certifications.html" class="cert-badge">
+    <i class="fas fa-cloud"></i> AWS Cloud Practitioner
+</a>
+<a href="./certificates/Sri-Amazon-Q-GenAI.pdf" class="cert-badge" target="_blank">
+    <i class="fas fa-robot"></i> Amazon Q GenAI
+</a>
+<a href="./certificates/Sri-Certification-AWS-Amazon-Q.pdf" class="cert-badge" target="_blank">
+    <i class="fas fa-brain"></i> Amazon Q Certified
+</a>
 
-### Recent roles & clients
+**[View All Certifications & Download PDFs →](./certifications.html)**
 
-- AA Software & Networking — AWS Solution Engineer (2019–present)
-- Cognizant — Java Application Architect & Technical Lead (2006–2019)
+## Professional Snapshot
 
-Notable clients/projects (last 6 years):
+- **25 years** in IT industry
+- **10+ years** working as AWS Solution Architect / Cloud Engineer  
+- **10 years** US onsite experience (since 2014)
+- **14 years** at Cognizant as Technical Lead & Solution Architect
+- Extensive experience in **Java application architecture**, **serverless**, **CI/CD** and **IaC** (CloudFormation, AWS CDK, Terraform)
 
-- Sirius XM — Connected Vehicle: Serverless migration
-- CollegeBoard — Moderation platform: Serverless + Glue ETL
-- T-Mobile — Security pipeline and pacbot integration
-- Cigna — Legacy platform modernization and FHIR transformations
-- Delta — Cloud migration (Azure → AWS)
+### Recent Roles & Clients
+
+#### **AA Software & Networking** — AWS Solution Engineer (2019–present)
+#### **Cognizant** — Java Application Architect & Technical Lead (2006–2019)
+
+### Notable Client Projects (Last 6 Years)
+
+| Client | Project | Technologies |
+|--------|---------|-------------|
+| **Sirius XM** | Connected Vehicle Platform | Serverless migration, Lambda, Node.js |
+| **CollegeBoard** | SAT Exam Moderation Platform | Serverless + Glue ETL, DynamoDB |
+| **T-Mobile** | Security Pipeline & PacBot | Security automation, multi-cloud |
+| **Cigna** | Legacy Platform Modernization | FHIR transformations, healthcare |
+| **Delta Airlines** | Cloud Migration | Azure → AWS migration |
 
 ## Skills
 
@@ -72,23 +127,72 @@ Notable clients/projects (last 6 years):
 - NoSQL: DynamoDB, Cassandra
 - Document DB: MongoDB
 
-## Education
+## Core Competencies
 
-- M.Tech Computer Science, ALCCS
+<div class="skills-grid">
+    <div class="skill-category">
+        <h4><i class="fas fa-cloud"></i> Cloud Platforms</h4>
+        <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">GCP</span>
+        </div>
+    </div>
+    <div class="skill-category">
+        <h4><i class="fas fa-code"></i> Programming</h4>
+        <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">TypeScript</span>
+        </div>
+    </div>
+    <div class="skill-category">
+        <h4><i class="fas fa-server"></i> Infrastructure</h4>
+        <div class="skill-tags">
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">CI/CD</span>
+        </div>
+    </div>
+    <div class="skill-category">
+        <h4><i class="fas fa-database"></i> Data & Analytics</h4>
+        <div class="skill-tags">
+            <span class="skill-tag">AWS Glue</span>
+            <span class="skill-tag">Athena</span>
+            <span class="skill-tag">DynamoDB</span>
+            <span class="skill-tag">Redshift</span>
+        </div>
+    </div>
+</div>
 
-## Projects & patterns
+## Education & Background
 
-- Cloud migration (6R/7R strategies)
-- Well-Architected Principles (Operational Excellence, Security, Reliability, Performance, Cost, Sustainability)
-- Serverless design patterns (see repository image: `API-Lambda-AppSync-DynamoDB.png`)
+**M.Tech Computer Science** - ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)
 
-## How to view certificates
+## Architecture Expertise
 
-- Certificate PDFs are available in the repository at `04-Certifications/certificates/`
-- Online verification: [Credly Profile](https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges)
-- Full certification details: [CERTIFICATIONS.md](./CERTIFICATIONS.html)
-- Repository certifications: [View on GitHub](https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer/tree/main/04-Certifications)
+- **Cloud Migration Strategies** (6R/7R methodologies)
+- **AWS Well-Architected Framework** (Operational Excellence, Security, Reliability, Performance, Cost, Sustainability)
+- **Serverless Design Patterns** (Event-driven architectures, microservices)
+- **Enterprise Integration** (API Gateway, message queues, service mesh)
 
----
-
-If you want a different organization (for example, separate pages per topic: Skills, Projects, Resume, Publications), tell me which sections to split and I'll create additional pages and a simple navigation sidebar.
+<div class="contact-card">
+    <h3><i class="fas fa-handshake"></i> Let's Connect</h3>
+    <p>Ready to discuss your next cloud project or architecture challenge?</p>
+    <div class="contact-info">
+        <div>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:srinivasarao.gurram@gmail.com">srinivasarao.gurram@gmail.com</a>
+        </div>
+        <div>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+19259224115">+1 925-922-4115</a>
+        </div>
+        <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Aubrey, TX (Dallas Metro)</span>
+        </div>
+    </div>
+</div>

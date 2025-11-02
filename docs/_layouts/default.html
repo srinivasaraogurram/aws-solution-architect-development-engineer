@@ -1,5 +1,495 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-{{ content }}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/enhancements.css">
+    <style>
+        :root {
+            --primary-color: #2c5aa0;
+            --secondary-color: #1a4480;
+            --accent-color: #f39c12;
+            --success-color: #27ae60;
+            --text-primary: #2c3e50;
+            --text-secondary: #7f8c8d;
+            --text-light: #ecf0f1;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --bg-dark: #2c3e50;
+            --border-light: #e9ecef;
+            --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--text-light);
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: none;
+            color: var(--text-light);
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .header-nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+
+        .header-nav a:hover {
+            opacity: 0.8;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2rem;
+            padding: 2rem;
+            min-height: calc(100vh - 80px);
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            height: fit-content;
+            position: sticky;
+            top: 100px;
+        }
+
+        .nav-section {
+            margin-bottom: 2rem;
+        }
+
+        .nav-section h3 {
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-tree {
+            list-style: none;
+        }
+
+        .nav-tree li {
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-tree a {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0.75rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .nav-tree a:hover,
+        .nav-tree a.active {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            transform: translateX(4px);
+        }
+
+        .nav-tree a i {
+            margin-right: 0.75rem;
+            width: 16px;
+            text-align: center;
+        }
+
+        /* Main Content */
+        .content {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        /* Typography */
+        .content h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .content h2 {
+            color: var(--text-primary);
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        .content h3 {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .content h4 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        .content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        /* Links */
+        .content a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .content a:hover {
+            border-bottom-color: var(--primary-color);
+        }
+
+        /* Lists */
+        .content ul,
+        .content ol {
+            margin: 1rem 0 1rem 2rem;
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Quick Links */
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .quick-link {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .quick-link:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--primary-color);
+        }
+
+        .quick-link i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-right: 1rem;
+        }
+
+        .quick-link-content h4 {
+            margin: 0 0 0.25rem 0;
+            font-size: 1rem;
+        }
+
+        .quick-link-content p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Code blocks */
+        pre,
+        code {
+            font-family: 'JetBrains Mono', 'Consolas', monospace;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        code {
+            padding: 0.2rem 0.4rem;
+            font-size: 0.9rem;
+        }
+
+        pre {
+            padding: 1rem;
+            overflow-x: auto;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        pre code {
+            padding: 0;
+            background: none;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        th,
+        td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--bg-secondary);
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--success-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+            }
+
+            .sidebar {
+                position: static;
+                margin-bottom: 2rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .header-nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .content {
+                padding: 1.5rem;
+            }
+
+            .content h1 {
+                font-size: 2rem;
+            }
+
+            .quick-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .content {
+            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="{{ site.baseurl }}/" class="logo">
+                <i class="fas fa-cloud"></i> Sri - AWS Solution Architect
+            </a>
+            <nav class="header-nav">
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/profile.html">Profile</a>
+                <a href="{{ site.baseurl }}/certifications.html">Certifications</a>
+                <a href="https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer"
+                    target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="nav-section">
+                <h3>Navigation</h3>
+                <ul class="nav-tree">
+                    <li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">
+                            <i class="fas fa-home"></i> Home
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/profile.html"
+                            class="{% if page.url contains 'profile' %}active{% endif %}">
+                            <i class="fas fa-user"></i> Professional Profile
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/certifications.html"
+                            class="{% if page.url contains 'certifications' %}active{% endif %}">
+                            <i class="fas fa-certificate"></i> Certifications
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/technical-docs.html"
+                            class="{% if page.url contains 'technical-docs' %}active{% endif %}">
+                            <i class="fas fa-cogs"></i> Technical Documentation
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/resume.html"
+                            class="{% if page.url contains 'resume' %}active{% endif %}">
+                            <i class="fas fa-file-alt"></i> Resume
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/code-samples.html"
+                            class="{% if page.url contains 'code-samples' %}active{% endif %}">
+                            <i class="fas fa-code"></i> Code Samples
+                        </a></li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h3>Quick Access</h3>
+                <ul class="nav-tree">
+                    <li><a href="{{ site.baseurl }}/certificates/Sri-Amazon-Q-GenAI.pdf" target="_blank">
+                            <i class="fas fa-download"></i> Amazon Q GenAI
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/certificates/Sri-Certification-AWS-Amazon-Q.pdf" target="_blank">
+                            <i class="fas fa-download"></i> Amazon Q Cert
+                        </a></li>
+                    <li><a href="{{ site.baseurl }}/certificates/Sri-Certification-Introduction%20to%20AWS%20WAF.pdf"
+                            target="_blank">
+                            <i class="fas fa-download"></i> AWS WAF Cert
+                        </a></li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h3>External Links</h3>
+                <ul class="nav-tree">
+                    <li><a href="https://www.credly.com/users/srinivasarao-gurram.db0bc344/badges" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Credly Profile
+                        </a></li>
+                    <li><a href="https://github.com/srinivasaraogurram/aws-solution-architect-development-engineer"
+                            target="_blank">
+                            <i class="fab fa-github"></i> GitHub Repository
+                        </a></li>
+                    <li><a href="mailto:srinivasarao.gurram@gmail.com">
+                            <i class="fas fa-envelope"></i> Email Contact
+                        </a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="content">
+            {{ content }}
+        </main>
+        </div>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Srinivasa Rao Gurram (Sri). All rights reserved. | AWS Solution Architect & Cloud Development
+                Engineer</p>
+        </footer>
+        
+        <!-- JavaScript for enhanced interactivity -->
+        <script src="{{ site.baseurl }}/assets/js/app.js"></script>
+        </body>
+        
+        </html>
