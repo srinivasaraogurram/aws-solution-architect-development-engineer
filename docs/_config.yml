@@ -44,3 +44,5 @@ navigation:
     url: /resume.html
   - title: Code Samples
     url: /code-samples.html
+  - title: Repositories
+    url: /repositories.html

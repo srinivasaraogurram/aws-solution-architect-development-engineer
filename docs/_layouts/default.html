@@ -434,10 +434,20 @@
                             class="{% if page.url contains 'profile' %}active{% endif %}">
                             <i class="fas fa-user"></i> Professional Profile
                         </a></li>
-                    <li><a href="{{ site.baseurl }}/certifications.html"
-                            class="{% if page.url contains 'certifications' %}active{% endif %}">
+                    <li class="{% if page.url contains 'certifications' or page.url contains '04-Certifications' %}open{% endif %}">
+                        <a href="{{ site.baseurl }}/certifications.html"
+                            class="{% if page.url contains 'certifications' and page.url != '/04-Certifications/' %}active{% endif %}">
                             <i class="fas fa-certificate"></i> Certifications
-                        </a></li>
+                        </a>
+                        <ul class="nav-tree">
+                            <li>
+                                <a href="{{ site.baseurl }}/04-Certifications/"
+                                    class="{% if page.url contains '04-Certifications' %}active{% endif %}">
+                                    <i class="fas fa-table"></i> Table View
+                                </a>
+                            </li>
+                        </ul>
+                        </li>
                     <li><a href="{{ site.baseurl }}/technical-docs.html"
                             class="{% if page.url contains 'technical-docs' %}active{% endif %}">
                             <i class="fas fa-cogs"></i> Technical Documentation
@@ -450,8 +460,11 @@
                             class="{% if page.url contains 'code-samples' %}active{% endif %}">
                             <i class="fas fa-code"></i> Code Samples
                         </a></li>
-                </ul>
-            </div>
+                        <li><a href="{{ site.baseurl }}/repositories.html" class="{% if page.url contains 'repositories' %}active{% endif %}">
+                                <i class="fab fa-github"></i> GitHub Repositories
+                            </a></li>
+                    </ul>
+                    </div>
 
             <div class="nav-section">
                 <h3>Quick Access</h3>

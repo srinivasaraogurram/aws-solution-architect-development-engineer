@@ -56,14 +56,31 @@ Welcome to my professional portfolio. This site showcases my expertise in cloud 
     </a>
 </div>
 
+    <a href="./repositories.html" class="quick-link">
+        <i class="fab fa-github"></i>
+        <div class="quick-link-content">
+            <h4>GitHub Repositories</h4>
+            <p>50+ repos categorized by technology</p>
+        </div>
+    </a>
 ---
-
+        <i class="fas fa-folder-open"></i>
 ## About Me
-
-**Location**: Aubrey, TX (Dallas area)  
+            <h4>Portfolio Repository</h4>
+            <p>Source code for this site</p>
 **Contact**: +1 925-922-4115  
 **Email**: [SrinivasaRao.Gurram@gmail.com](mailto:srinivasarao.gurram@gmail.com)  
 **Education**: M.Tech Computer Science, ALCCS, [IETE New Delhi](https://www.iete.org/courses-academics-and-exams/)
+
+## Employer & Recruiter Information
+
+**Current Employer**: AA Software & Networking, Inc.  
+**Website**: [http://www.aasoftnet.com](http://www.aasoftnet.com)
+
+**Recruiter Contact**:  
+Prasanna - Senior Recruiter  
+📧 Email: [prasanna@aasoftnet.com](mailto:prasanna@aasoftnet.com)  
+📞 Phone: +1 (609) 973-8345
 
 I am an **AWS Cloud Engineer / Solution Architect** who delivers end-to-end solutions (design + implementation) using Java, Node.js and Python. I specialize in **Cloud Migration** and **Serverless solutions** using AWS Lambda, API Gateway, Step Functions, and related services.
 

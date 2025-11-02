@@ -7,6 +7,8 @@ title: Professional Certifications - Sri (Srinivasa Rao Gurram)
 **Srinivasa Rao Gurram (Sri)**  
 AWS Solution Architect & Cloud Development Engineer
 
+> Prefer a compact, scannable layout? View the [Table View of Certifications](./04-Certifications/).
+
 ---
 
 ## 🎓 Current AWS Certifications
