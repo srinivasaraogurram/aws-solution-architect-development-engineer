@@ -1,4 +1,4 @@
-name: Deploy docs to gh-pages branch
+name: Deploy docs to GitHub Pages
 
 on:
   push:
@@ -7,17 +7,48 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          force_orphan: true
+          ruby-version: '3.3'
+          bundler-cache: true
+      
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      
+      - name: Build with Jekyll
+        run: |
+          cd docs
+          gem install bundler jekyll
+          bundle init
+          bundle add jekyll --version "~> 4.3.0"
+          bundle add webrick
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,10 @@
+# Site settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
